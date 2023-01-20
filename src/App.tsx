@@ -1,11 +1,11 @@
-import React from 'react'
+import Projects from "./pages/Projects";
 
 const App = () => {
   return (
-    <div>
-      Hello World!
-    </div>
-  )
-}
+    <>
+      <Projects />
+    </>
+  );
+};
 
-export default App
+export default App;
