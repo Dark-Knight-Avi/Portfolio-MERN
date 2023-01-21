@@ -11,9 +11,9 @@ const Navbar: FC<NavBarProps> = ({ isOpen, setIsOpen }) => {
         className={`self-center bg-slate-900 text-white w-full max-w-7xl lg:px-0 px-10`}
       >
         <div className="flex lg:justify-around justify-between items-center ">
-          <h1 className="uppercase pl-5 py-4 text-lg font-sans font-bold">
+          <a href="/" className="uppercase pl-5 py-4 text-lg font-sans font-bold">
             akfolio
-          </h1>
+          </a>
           {isOpen ? (
             <RiCloseLine
               color="#fff"
