@@ -1,65 +1,51 @@
-import React from "react";
+import React, { FC, useState } from "react";
+import NavBarProps from "../interfaces/NavBarProps";
+import Menu from "./Menu";
+import SocialMedias from "./SocialMedias";
+import { RiCloseLine, RiMenu3Line } from "react-icons/ri";
 
-const Navbar = () => {
+const Navbar: FC<NavBarProps> = ({ isOpen, setIsOpen }) => {
   return (
     <div className="flex justify-center bg-slate-900 text-white ">
-      <nav className="self-center bg-slate-900 text-white w-full max-w-7xl ">
-        <div className="flex flex-col lg:flex-row justify-around items-center ">
+      <nav
+        className={`self-center bg-slate-900 text-white w-full max-w-7xl lg:px-0 px-10`}
+      >
+        <div className="flex lg:justify-around justify-between items-center ">
           <h1 className="uppercase pl-5 py-4 text-lg font-sans font-bold">
             akfolio
           </h1>
+          {isOpen ? (
+            <RiCloseLine
+              color="#fff"
+              size={27}
+              onClick={() => setIsOpen(false)}
+              className="lg:hidden"
+            />
+          ) : (
+            <RiMenu3Line
+              color="#fff"
+              size={27}
+              onClick={() => setIsOpen(true)}
+              className="lg:hidden"
+            />
+          )}
           <ul className="hidden lg:flex items-center text-[18px] font-semibold pl-32">
-            <li className="hover:underline underline-offset-4 decoration-2 decoration-white py-2 rounded-lg px-5">
-              <a href="/">Home</a>
-            </li>
-            <li className="hover:underline underline-offset-4 decoration-2 decoration-white py-2 rounded-lg px-5">
-              <a href="/">About</a>
-            </li>
-            <li className="hover:underline underline-offset-4 decoration-2 decoration-white py-2 rounded-lg px-5">
-              <a href="/">Projects</a>
-            </li>
-            <li className="hover:underline underline-offset-4 decoration-2 decoration-white py-2 rounded-lg px-5">
-              <a href="/">Contact</a>
-            </li>
+            <Menu />
           </ul>
-          <div className=" text-center text-base pr-5 inline-flex">
-            <a
-              href="https://twitter.com/AvijeetKarmaka7"
-              target={'_blank'}
-              className="w-8 h-8 inline-block rounded-full pt-[6px] hover:text-blue-500"
-            >
-              <i className="fa fa-twitter"></i>
-            </a>
-            <a
-              href="https://www.instagram.com/avi_k_aritra/"
-              target={'_blank'}
-              className="w-8 h-8 inline-block rounded-full pt-[5px] hover:text-blue-500"
-            >
-              <i className="fa fa-instagram"></i>
-            </a>
-            <a
-              href="https://www.facebook.com/avijeet.karmakar.9"
-              target={'_blank'}
-              className="w-8 h-8 inline-block rounded-full pt-[5px] hover:text-blue-500"
-            >
-              <i className="fa fa-facebook"></i>
-            </a>
-            <a
-              href="https://github.com/Dark-Knight-Avi"
-              target={'_blank'}
-              className="w-8 h-8 inline-block rounded-full pt-[5px] hover:text-blue-500"
-            >
-              <i className="fa fa-github"></i>
-            </a>
-            <a
-              href="https://www.linkedin.com/in/aritra-karmakar-82b622214/"
-              target={'_blank'}
-              className="w-8 h-8 inline-block rounded-full pt-[5px] hover:text-blue-500"
-            >
-              <i className="fa fa-linkedin"></i>
-            </a>
+          <div className=" text-center text-base pr-5 hidden lg:inline-flex">
+            <SocialMedias />
           </div>
         </div>
+        {isOpen && (
+          <div className="bg-slate-800 scroll-smooth h-[300px] w-[180px] z-10 absolute right-14 top-13 flex flex-col justify-between">
+            <ul className="flex flex-col my-5">
+              <Menu />
+            </ul>
+            <div className="flex ml-2 justify-center my-5">
+              <SocialMedias />
+            </div>
+          </div>
+        )}
       </nav>
     </div>
   );

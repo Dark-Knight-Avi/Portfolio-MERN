@@ -1,10 +1,11 @@
-import React from "react";
+import React, { FC } from "react";
+import HomeProps from "../interfaces/HomeProps";
 import "../styles/Home.css";
 
-const Home = () => {
+const Home: FC<HomeProps> = ({ isOpen }) => {
   return (
     <div>
-      <div className="flex flex-col md:flex-row items-center justify-center bg-slate-900 p-5 md:p-16 lg:p-28">
+      <div className="flex lg:h-[90vh] md:h-[100vh] flex-col md:flex-row items-center justify-center bg-slate-900 p-10 md:p-30 lg:p-28">
         <div className="flex flex-col justify-center max-w-7xl text-white">
           <h1 className="tracking-in-expand text-base font-medium tracking-wider ">
             Welcome to my portfolio
@@ -12,15 +13,15 @@ const Home = () => {
           <span className="underline underline-offset-2 text-white -mt-3">
             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
           </span>
-          <div className="f lex flex-col text-white mt-5">
+          <div className="flex flex-col text-white mt-5">
             <h1 className="tracking-in-expand text-4xl md:text-[50px] font-semibold">
               Hello I'm Aritra Karmakar
             </h1>
-            <p className="tracking-in-expand lg:text-[35px] md:text-[30px] text-[25px] content my-5 tracking-wide">
+            <p className="tracking-in-expand lg:text-[35px] md:text-[30px] text-[20px] content my-5 tracking-wide">
               <div className="content__container">
                 <p className="content__container__text">I'm a</p>
 
-                <ul className="content__container__list lg:pl-[100px] md:pl-[78px] pl-[65px]">
+                <ul className="content__container__list lg:pl-[100px] md:pl-[78px] pl-[55px]">
                   <li className="content__container__list__item">
                     MERN Developer
                   </li>
@@ -43,7 +44,7 @@ const Home = () => {
             databases. Certified in both F/E and B/E technologies. Seeking to
             further improve Django and MERN skills as a full stack developer.
           </p>
-          <div className="flex mt-10 space-x-5">
+          <div className="flex md:justify-start justify-center mt-10 space-x-5">
             <button className="bg-white text-black px-6 py-2 hover:bg-slate-200 active:bg-slate-300 font-semibold">
               About Me
             </button>
@@ -52,7 +53,7 @@ const Home = () => {
             </button>
           </div>
         </div>
-        <div className="puff-in-center w-[40%] md:w-[50%] lg:w-[32%] my-10 md:my-0 mx-10 p-5 border-2 border-white">
+        <div className="puff-in-center w-[75%] md:w-[75%] lg:w-[30%] my-10 md:my-0 mx-10 p-5 border-2 border-white">
           <img
             className="animate-pulse"
             src={

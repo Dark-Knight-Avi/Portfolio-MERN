@@ -1,13 +1,15 @@
+import { useState } from "react";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 
 const App = () => {
+  const [isOpen, setIsOpen] = useState(false);
   return (
     <>
-      <Navbar />
-      <Home />
+      <Navbar isOpen={isOpen} setIsOpen={setIsOpen} />
+      <Home isOpen={isOpen} />
       <Footer />
     </>
   );
