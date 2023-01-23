@@ -3,6 +3,8 @@ import NavBarProps from "../interfaces/NavBarProps";
 import Menu from "./Menu";
 import SocialMedias from "./SocialMedias";
 import { RiCloseLine, RiMenu3Line } from "react-icons/ri";
+import "../styles/Navbar.css";
+import { Link } from "react-router-dom";
 
 const Navbar: FC<NavBarProps> = ({ isOpen, setIsOpen }) => {
   return (
@@ -11,9 +13,12 @@ const Navbar: FC<NavBarProps> = ({ isOpen, setIsOpen }) => {
         className={`self-center bg-slate-900 text-white w-full max-w-7xl lg:px-0 px-10`}
       >
         <div className="flex lg:justify-around justify-between items-center ">
-          <a href="/" className="uppercase pl-5 py-4 text-lg font-sans font-bold">
+          <Link
+            to="/"
+            className="uppercase pl-5 py-4 text-lg font-sans font-bold"
+          >
             akfolio
-          </a>
+          </Link>
           {isOpen ? (
             <RiCloseLine
               color="#fff"
@@ -37,7 +42,7 @@ const Navbar: FC<NavBarProps> = ({ isOpen, setIsOpen }) => {
           </div>
         </div>
         {isOpen && (
-          <div className="bg-slate-800 scroll-smooth h-[300px] w-[180px] z-10 absolute right-14 top-13 flex flex-col justify-between">
+          <div className="scale-up-tr bg-slate-800 scroll-smooth h-[300px] w-[180px] z-10 absolute right-14 top-13 flex flex-col justify-between">
             <ul className="flex flex-col my-5">
               <Menu />
             </ul>
