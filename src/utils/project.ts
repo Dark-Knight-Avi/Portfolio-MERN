@@ -13,7 +13,7 @@ export const project: IProject[] = [
     ],
     project__link:
       "https://github.com/Dark-Knight-Avi/Shoping-E-Cart-App-using-Strapi-next",
-    project__techs: ["JavaScript", "Next JS", "Strapi", "PostgreSQL"],
+    project__techs: ["JavaScript, ", "Next JS, ", "Strapi, ", "PostgreSQL "],
   },
   {
     project__id: "pr2",
@@ -26,10 +26,10 @@ export const project: IProject[] = [
     ],
     project__link: "https://github.com/Dark-Knight-Avi/Zomato-Clone-App",
     project__techs: [
-      "JavaScript ",
-      "MongoDB ",
-      "Express JS ",
-      "React JS ",
+      "JavaScript, ",
+      "MongoDB, ",
+      "Express JS, ",
+      "React JS, ",
       "Node JS ",
     ],
   },
@@ -45,7 +45,7 @@ export const project: IProject[] = [
       "User can send text messages to each other and call via voice or video.",
     ],
     project__link: "https://github.com/Dark-Knight-Avi/Video_Calling_Web_App",
-    project__techs: ["Django", "Web Socket"],
+    project__techs: ["Django, ", "Web Socket "],
   },
   {
     project__id: "pr4",
@@ -55,7 +55,7 @@ export const project: IProject[] = [
       "https://raw.githubusercontent.com/Dark-Knight-Avi/Portfolio-MERN/master/src/assets/projects/pr4.png",
     project__desc: ["Sorting Algorithm Visualizer built with React JS."],
     project__link: "https://sorting-visualizer-aritra.netlify.app/",
-    project__techs: ["JavaScript", "React JS"],
+    project__techs: ["JavaScript, ", "React JS "],
   },
   {
     project__id: "pr5",
@@ -68,8 +68,8 @@ export const project: IProject[] = [
       "Developed using React, mainly useSWR Hook.",
       "User can Navigate Pages by clicking Next Button.",
     ],
-    project__link: "https://github.com/Dark-Knight-Avi/useSWR",
-    project__techs: ["JavScript", "SWR", "React JS"],
+    project__link: "https://use-swr-omega.vercel.app/",
+    project__techs: ["JavScript, ", "SWR, ", "React JS "],
   },
   {
     project__id: "pr6",
@@ -82,7 +82,7 @@ export const project: IProject[] = [
       " Used Github API to fetch the data about any profile.",
     ],
     project__link: "https://git-battle-dka.netlify.app/",
-    project__techs: ["TypeScript", "React JS"],
+    project__techs: ["TypeScript, ", "React JS "],
   },
   {
     project__id: "pr7",
@@ -92,6 +92,6 @@ export const project: IProject[] = [
       "https://raw.githubusercontent.com/Dark-Knight-Avi/Portfolio-MERN/master/src/assets/projects/pr7.png",
     project__desc: ["A platform to get all news about Trending Technologies."],
     project__link: "https://hacker-news-dka.netlify.app/",
-    project__techs: ["TypeScript", "React JS"],
+    project__techs: ["TypeScript, ", "React JS "],
   },
 ];
