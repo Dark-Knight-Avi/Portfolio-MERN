@@ -1,7 +1,7 @@
 import React from "react";
 import IProject from "../interfaces/IProject";
 import { project } from "../utils/project";
-
+import '../styles/Projects.css'
 const Projects = () => {
   return (
     <div className="p-10 md:p-30 lg:p-28 flex flex-col bg-slate-900 text-white">
@@ -9,7 +9,8 @@ const Projects = () => {
         return (
           <div
             key={proj.project__id}
-            className="bg-slate-800 flex md:flex-row flex-col hover:shadow-md my-5 p-7 hover:bg-slate-700 hover:shadow-[#505c71]"
+            data-entrance="from-left"
+            className="scale-up-hor-center bg-slate-800 flex md:flex-row flex-col hover:shadow-md my-5 p-7 hover:bg-slate-700 hover:shadow-[#505c71]"
           >
             <img className="md:w-[40%] w-[100%]" src={proj.project__template} alt="" />
             <div className="md:mx-10 my-10">
