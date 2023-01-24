@@ -11,7 +11,7 @@ const Projects = () => {
             key={proj.project__id}
             className="bg-slate-800 flex md:flex-row flex-col hover:shadow-md my-5 p-7 hover:bg-slate-700 hover:shadow-[#505c71]"
           >
-            <img src={proj.project__template} alt="" width={"300px"} />
+            <img className="md:w-[40%] w-[100%]" src={proj.project__template} alt="" />
             <div className="md:mx-10 my-10">
               <h2 className="font-bold text-2xl sm:text-3xl mb-5">{proj.project__title}</h2>
               <ul className="ml-5 mb-2">
