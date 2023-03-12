@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="flex flex-row md:flex-col items-center bg-slate-900 p-10 md:p-30 lg:p-28 h-min-[90vh]">
+    <div className="flex flex-row md:flex-col items-center bg-slate-900 p-10 md:p-30 lg:p-28 h-[90vh]">
       <div className="flex flex-col md:flex-row justify-center text-white w-full lg:w-[75%]">
         <div className="puff-in-center flex justify-center items-center my-10 w-[25%] md:my-0 mx-10 p-5 border-2 border-white">
           <img
