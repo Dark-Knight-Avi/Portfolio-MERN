@@ -1,0 +1,242 @@
+{
+  "name": "Aritra Karmakar",
+  "dob": "31/03/2001",
+  "profile_title": "Frontend Developer | Full-stack Developer | MERN | Next JS",
+  "profile__summary": "Full-stack web developer with 2+ years of experience building robust and scalable web apps. Proven expertise in JavaScript, Typescript, React JS, Next JS, and databases like MongoDB, MySQL & Redis with web performances. Passionate learner & team player eager to create exceptional online experiences.",
+  "educations": [
+    {
+      "ed__id": "ed3",
+      "ed__inst": "VISVESVARAYA TECHNOLOGICAL UNIVERSITY",
+      "ed__qualification": "B.E in Information Technology",
+      "ed__duration": "Aug 2019 - June 2023",
+      "ed__inst_place": "Belagavi, Karnataka",
+      "ed__inst_sub": "HKBK College of Engineering, Bangalore",
+      "ed__result__parameter": "CGPA",
+      "ed__result": "8.2"
+    },
+    {
+      "ed__id": "ed2",
+      "ed__inst": "BURDWAN SRI RAMAKRISHNA SARADAPITH UCHHA VIDYALAYA",
+      "ed__qualification": "12th (WBCHSE)",
+      "ed__duration": "Feb 2018 - April 2019",
+      "ed__inst_place": "Burdwan, West Bengal",
+      "ed__result__parameter": "Percentage",
+      "ed__result": "73.4%"
+    },
+    {
+      "ed__id": "ed1",
+      "ed__inst": "CHAGRAM HIGH SCHOOL",
+      "ed__qualification": "10th (WBBSE)",
+      "ed__duration": "Feb 2016 - March 2017",
+      "ed__inst_place": "Chagram, Purbo Bardhaman, West Bengal",
+      "ed__result__parameter": "Percentage",
+      "ed__result": "86.4%"
+    }
+  ],
+  "experiences": [
+    {
+      "exp__id": "exp3",
+      "exp__company": "OSLASH",
+      "exp__role": "Product Engineer Intern (Front-end)",
+      "exp__type": "Internship",
+      "exp__duration": "DEC 2022 - JAN 2023",
+      "exp__location": "Bangalore",
+      "exp__contributions": [
+        "Worked with Snippets (Product) team to maintain the Dashboard of OSlash.",
+        "Solved 2 major and 1 minorissues of the Product Dashboard (Used React/TS)."
+      ]
+    },
+    {
+      "exp__id": "exp2",
+      "exp__company": "EDUREKA",
+      "exp__role": "Full-stack Developer Intern",
+      "exp__type": "Internship",
+      "exp__duration": "AUG 2021 - MARCH 2022",
+      "exp__location": "Bangalore",
+      "exp__contributions": [
+        "• Worked with R&D (Web Services) team to develop an E-Commerce Website.",
+        "Designed and developed a fully responsive E-Commerce Website similar to Zomato (clone) using MERN Stack.",
+        "Integrated Paytm JS Checkout and User Authentication functionality."
+      ]
+    },
+    {
+      "exp__id": "exp1",
+      "exp__company": "EXPOSYS DATA LABS",
+      "exp__role": " Full-stack Developer Intern",
+      "exp__type": "Internship",
+      "exp__duration": "SEPT 2021 - OCT 2021",
+      "exp__location": "Bangalore",
+      "exp__contributions": [
+        "Worked with the RD (Web Services) team to develop a Video Calling Web Application.",
+        "Integrated Django Framework in the entire backend and added Audio/Video calling chatting features using Web Socket.",
+        "Allowed unique userIDs to be generated using the Django Authentication System."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "project__id": "pr8",
+      "project__title": "Inventory Management Web App",
+      "project__tag": "Personal Project",
+      "project__template": "https://raw.githubusercontent.com/Dark-Knight-Avi/Portfolio-MERN/master/src/assets/projects/pr8.png",
+      "project__desc": [
+        "Sidebar component to list all Categories and Sub Categories of products.",
+        "Admin can Delete, Add, Update Categories and Products on the Update section.",
+        "Super fast database queries with Redis.",
+        "Data fetching using React Query.",
+        "State Management using Redux Toolkit.",
+        "Responsive UI built with Tailwind CSS"
+      ],
+      "project__link": "https://rnj-stock.netlify.app",
+      "project__techs": [
+        "Next JS",
+        "Redis",
+        "React Query",
+        "Redux",
+        "Tailwind CSS"
+      ]
+    },
+    {
+      "project__id": "pr7",
+      "project__title": "Shoping E-Cart App",
+      "project__tag": "Personal Project",
+      "project__template": "https://raw.githubusercontent.com/Dark-Knight-Avi/Portfolio-MERN/master/src/assets/projects/pr1.png",
+      "project__desc": [
+        "A Fully featured responsive complete E-Commerce Website that allows users to buy a product, add product to cart, remove from cart, etc.",
+        "Paytm JS Checkout module is used to add a Payment gateway."
+      ],
+      "project__link": "https://github.com/Dark-Knight-Avi/Shoping-E-Cart-App-using-Strapi-next",
+      "project__techs": ["JavaScript", "Next JS", "Strapi", "PostgreSQL"]
+    },
+    {
+      "project__id": "pr6",
+      "project__title": "Zomato-Clone-App",
+      "project__tag": "Edureka",
+      "project__template": "https://raw.githubusercontent.com/Dark-Knight-Avi/Portfolio-MERN/master/src/assets/projects/pr2.png",
+      "project__desc": [
+        "A fully functional responsive front-edge food delivery solution that allows restaurants to start online services and achieve higher revenues."
+      ],
+      "project__link": "https://github.com/Dark-Knight-Avi/Zomato-Clone-App",
+      "project__techs": [
+        "JavaScript",
+        "MongoDB",
+        "Express JS",
+        "React JS",
+        "Node JS"
+      ]
+    },
+    {
+      "project__id": "pr5",
+      "project__title": "Video Calling Web App",
+      "project__tag": "Exposys Data Labs",
+      "project__template": "https://raw.githubusercontent.com/Dark-Knight-Avi/Portfolio-MERN/master/src/assets/projects/pr3.png",
+      "project__desc": [
+        "A responsive Video Calling web app, user can create their ID's by SIGNING UP.",
+        "Users need to LOGIN to connect with their friends by entering friend's unique USER ID.",
+        "User can send text messages to each other and call via voice or video."
+      ],
+      "project__link": "https://github.com/Dark-Knight-Avi/Video_Calling_Web_App",
+      "project__techs": ["Django", "Web Socket"]
+    },
+    {
+      "project__id": "pr4",
+      "project__title": "Sorting Algorithm Visualizer using React JS",
+      "project__tag": "Personal Project",
+      "project__template": "https://raw.githubusercontent.com/Dark-Knight-Avi/Portfolio-MERN/master/src/assets/projects/pr4.png",
+      "project__desc": ["Sorting Algorithm Visualizer built with React JS."],
+      "project__link": "https://sorting-visualizer-aritra.netlify.app/",
+      "project__techs": ["JavaScript", "React JS"]
+    },
+    {
+      "project__id": "pr3",
+      "project__title": "useSWR",
+      "project__tag": "Personal Project",
+      "project__template": "https://raw.githubusercontent.com/Dark-Knight-Avi/Portfolio-MERN/master/src/assets/projects/pr5.png",
+      "project__desc": [
+        "Used Unsplash API.",
+        "Developed using React, mainly useSWR Hook.",
+        "User can Navigate Pages by clicking Next Button."
+      ],
+      "project__link": "https://use-swr-omega.vercel.app/",
+      "project__techs": ["JavScript", "SWR", "React JS"]
+    },
+    {
+      "project__id": "pr2",
+      "project__title": "Github Battle",
+      "project__tag": "OSlash",
+      "project__template": "https://raw.githubusercontent.com/Dark-Knight-Avi/Portfolio-MERN/master/src/assets/projects/pr6.png",
+      "project__desc": [
+        " An platform to get information about any GitHub Profile and to Conduct Battle between GitHub Profiles.",
+        " Used Github API to fetch the data about any profile."
+      ],
+      "project__link": "https://git-battle-dka.netlify.app/",
+      "project__techs": ["TypeScript", "React JS"]
+    },
+    {
+      "project__id": "pr1",
+      "project__title": "Hacker News",
+      "project__tag": "OSlash",
+      "project__template": "https://raw.githubusercontent.com/Dark-Knight-Avi/Portfolio-MERN/master/src/assets/projects/pr7.png",
+      "project__desc": [
+        "A platform to get all news about Trending Technologies."
+      ],
+      "project__link": "https://hacker-news-dka.netlify.app/",
+      "project__techs": ["TypeScript", "React JS"]
+    }
+  ],
+  "skills": {
+    "languages": [
+      { "lang": "JavaScript", "lang_prof": 90 },
+      { "lang": "TypeScript", "lang_prof": 90 },
+      { "lang": "Java", "lang_prof": 70 },
+      { "lang": "Python", "lang_prof": 70 }
+    ],
+    "tools": [
+      { "tool": "Git", "tool_prof": 70 },
+      { "tool": "Linux", "tool_prof": 65 },
+      { "tool": "VS Code", "tool_prof": 95 },
+      { "tool": "IntelliJ IDEA", "tool_prof": 75 }
+    ],
+    "fnl": [
+      { "fnl": "React JS", "fnl_prof": 90 },
+      { "fnl": "Next JS", "fnl_prof": 50 },
+      { "fnl": "Redux", "fnl_prof": 80 },
+      { "fnl": "React Query", "fnl_prof": 80 },
+      { "fnl": "Node JS", "fnl_prof": 80 },
+      { "fnl": "Tailwind CSS", "fnl_prof": 95 },
+      { "fnl": "Django", "fnl_prof": 75 },
+      { "fnl": "Bootstrap", "fnl_prof": 95 }
+    ],
+    "techs": [
+      { "tech": "REST-API", "tech_prof": 90 },
+      { "tech": "Postman", "tech_prof": 95 },
+      { "tech": "MongoDB", "tech_prof": 85 },
+      { "tech": "MySQL", "tech_prof": 95 },
+      { "tech": "Redis", "tech_prof": 80 },
+      { "tech": "Prisma", "tech_prof": 85 },
+      { "tech": "Stripe", "tech_prof": 85 },
+      { "tech": "PostgreSQL", "tech_prof": 85 },
+      { "tech": "Strapi", "tech_prof": 75 },
+      { "tech": "Chrome Extensions", "tech_prof": 75 },
+      { "tech": "Data Structures & Algorithms", "tech_prof": 90 }
+    ],
+    "techSkillProf": [
+      "Adaptability and Flexibility",
+      "Problem-Solving and Critical Thinking"
+    ],
+    "hobbies": ["Playing Cricket", "Listening Audio Stories"]
+  },
+  "achievments": [
+    {
+      "ach__id": "ach1",
+      "ach__title": "SMART INDIA HACKATHON 2022",
+      "ach__place": "CUTM, Bhubaneswar",
+      "ach__date": "24th - 29th August 2022",
+      "ach__contributions": [
+        "Got Selected in Grand Finale of SIH 2022.",
+        "Worked on ”Indigenous Monitoring Communication Receiver” project.",
+        "Handled the Simulation of the Superheterodyne Receiverin MATLAB."
+      ]
+    }
+  ]
+}
